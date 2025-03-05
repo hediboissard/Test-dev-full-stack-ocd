@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        // Vérifie si la colonne 'child_id' n'existe pas déjà
+        
         if (!Schema::hasColumn('people', 'child_id')) {
             Schema::table('people', function (Blueprint $table) {
                 $table->unsignedBigInteger('child_id')->nullable()->after('id');
@@ -21,7 +21,7 @@ return new class extends Migration
 
     public function down(): void
     {
-        // Supprime la colonne 'child_id' si elle existe
+        
         if (Schema::hasColumn('people', 'child_id')) {
             Schema::table('people', function (Blueprint $table) {
                 $table->dropColumn('child_id');

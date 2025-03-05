@@ -12,8 +12,8 @@ return new class extends Migration
     public function up()
     {
         Schema::table('people', function (Blueprint $table) {
-            $table->unsignedBigInteger('parent_id')->nullable();  // Ajoute un parent_id nullable
-            $table->foreign('parent_id')->references('id')->on('people')->onDelete('set null');  // Crée une clé étrangère
+            $table->unsignedBigInteger('parent_id')->nullable(); 
+            $table->foreign('parent_id')->references('id')->on('people')->onDelete('set null'); 
         });
     }
 
