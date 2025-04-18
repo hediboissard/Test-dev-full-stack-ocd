@@ -53,10 +53,6 @@ php artisan serve
 Et pour le front-end (si Vite est utilisé) :
 
 npm run dev
-🧱 Aperçu de la base de données
-Structure BDD
-
-Cette base a été pensée pour favoriser une gestion communautaire fiable des modifications, en assurant traçabilité et validation collective.
-
+```
 📬 Contact
 Pour toute question ou retour : boissardhedi@gmail.com
