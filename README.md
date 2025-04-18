@@ -54,5 +54,6 @@ Et pour le front-end (si Vite est utilisé) :
 
 npm run dev
 ```
-📬 Contact
+## 📬 Contact
+
 Pour toute question ou retour : boissardhedi@gmail.com
